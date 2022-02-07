@@ -14,7 +14,7 @@ I'm looking at data on red wines from TotalWine.com, which gives a lot of inform
 * There are quite a lot of varietals, so for visualizations I limit the varietals to the most well-known.
 
 ### Exploratory findings
-####Visualizations:
+#### Visualizations:
 [Tableau dashboard, in progress](https://public.tableau.com/app/profile/emma3974/viz/Wine_Keywords/WineFlavors?publish=yes)
 
 Each wine varietal has a broadly typical flavor profile (i.e. a Rhone Blend will often have spice notes), but there's also more granular variation by the bottle, which will be helpful in identifying unique flavors that a customer may be attracted to. As an example, a customer that preferentially buys or highly rates wines with high minerality may be prompted to buy more bottles with high minerality, even if it's a varietal they haven't yet encountered.

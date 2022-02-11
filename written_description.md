@@ -22,6 +22,7 @@ I propose developing a *content-based* recommending system using concrete featur
 * Rating a wine highly or making a repeat purchase will be the indicators that a customer likes a wine
 * The new model will perform better the more customers rate and purchase
 * Customers must be signed up in the client's system to get recommendations at all
+* One option to consider will be a hybrid model (collaborative filtering and content-based filtering together)
 
 ### Data
 I scraped information on 3,500 bottles of red wine from TotalWine.com, using Selenium to scrape and then BeautifulSoup to parse. After removing rows with null values, I still ended up with almost 3,000 rows. The features I scraped included tasting keywords, customer reviews, price, and varietal, though tasting keywords and varietal were my primary objects of analysis. I used customer ratings to verify that highly rated wines have nearly the same tasting note distribution as the wines do overall, indicating a need for a more customer-centric approach.

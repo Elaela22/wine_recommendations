@@ -6,7 +6,7 @@
 
 ### [MVP](https://github.com/Elaela22/wine_recommendations/blob/main/MVP.md)
 
-### [Excel file](https://github.com/Elaela22/wine_prices/blob/main/Wine%20Project%20(2).ipynb)
+### [Excel file](https://github.com/Elaela22/wine_recommendations/blob/main/Wine%20Info.xlsx)
 
 ### [Tableau Dashboard](https://public.tableau.com/app/profile/emma3974/viz/Wine_Keywords/WineFlavors)
 

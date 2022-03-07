@@ -21,10 +21,10 @@ I'm looking at comprehensive wine review data in a Kaggle dataset (https://www.k
 
 I've created a content-based recommender model using cosine distances to predict the wines a customer is most likely to enjoy. Here's an example of what the model would predict given 4 known wine preferences:
 
-![](https://raw.githubusercontent.com/Elaela22/wine_recommendations/main/mineral_var.png)
+![](https://raw.githubusercontent.com/Elaela22/wine_recommendations/main/Screen%20Shot%202022-03-07%20at%204.15.49%20PM.png)
 
 Here's a word cloud for these preferences and recommendations:
-
+![](https://raw.githubusercontent.com/Elaela22/wine_recommendations/main/word_cloud_wine.png)
 
 ### Next steps
 * Identify a concrete way to evaluate the model's success

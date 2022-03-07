@@ -16,6 +16,14 @@ I'm assuming:
 ### Data
 I'm looking at comprehensive wine review data in a Kaggle dataset (https://www.kaggle.com/zynicide/wine-reviews) that includes over 100K wines up to the year 2007.
 
+### Current tools
+The most important tools I'm using are:
+1. spaCy to create the preprocessing pipeline
+2. PCA from sklearn.decomposition to reduce dimensionality to important components
+3. TfidfVectorizer to analyze word frequency and relevance across all reviews
+4. Pairwise distances and cosine distance to create recommender model
+5. WordCloud to visualize important words given a subsection of liked wines
+
 ### Exploratory findings
 #### Visualizations:
 

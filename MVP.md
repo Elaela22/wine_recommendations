@@ -23,7 +23,8 @@ I've created a content-based recommender model using cosine distances to predict
 
 ![](https://raw.githubusercontent.com/Elaela22/wine_recommendations/main/Screen%20Shot%202022-03-07%20at%204.15.49%20PM.png)
 
-Here's a word cloud for these preferences and recommendations:
+Here's a word cloud to contextualize the unique preferences and recommendations for this user:
+
 ![](https://raw.githubusercontent.com/Elaela22/wine_recommendations/main/word_cloud_wine.png)
 
 ### Next steps

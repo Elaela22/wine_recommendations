@@ -1,5 +1,5 @@
 # MVP
-## Wine Recommendation Clusters
+## Wine Recommendations
 
 ### Background
 My client is a wine store looking to boost customer happiness (and therefore customer retention) by implementing a content-based wine recommendation model.

@@ -6,9 +6,9 @@ I analyzed wine descriptions and varietals using a Kaggle dataset of 119,000 rev
 ## Components
 ### Design
 
-My client is a big wine retailer (in-store and online) that suffers from a lack of customer loyalty and a low number of repeat purchases. They currently use a *collaborative* recommending system that isn't working well.
+My client is a big wine retailer (in-store and online) that suffers from a lack of customer loyalty and a low number of repeat purchases. They currently use a purely collaborative recommending system that isn't working well.
 
-I developed a *content-based* recommending system using concrete information from the wine's description: flavors, varietal, dryness/sweetness, body, etc. This model will take niche preferences into account, for true customer-centricity.
+I developed a *content-based* recommending system using concrete information from the wine's description: flavors, dryness/sweetness, body, mouthfeel, etc. I combined this with another column of data to grab the specific varietal, which is instrumental in categorizing wines. This new model organizes wines into 130 clusters, using unsupervised machine learning on the textual data to learn groupings that make sense and take niche preferences into account. Then, I wrote a function that uses these clusters to find wines a customer is likely to enjoy.
 
 #### Success Metrics
 
@@ -18,9 +18,7 @@ I developed a *content-based* recommending system using concrete information fro
 
 #### Risks and Assumptions
 * The data must be accurate, with reliable descriptions of sufficient length
-* The new model will have less data to draw on, because it's not looking at the total user base to make a recommendation
 * Rating a wine highly or making a repeat purchase will be the indicators that a customer likes a wine
-* The new model will perform better the more customers rate and purchase
 * Customers must be signed up in the client's system to get recommendations at all
 * The model should take price into account as the final filtering step for recommendations
 * The final function that outputs recommendations from clusters should be fine-tuned with the help of the marketing team (i.e. # of recommendations per email, # of clusters represented in each email)
@@ -30,10 +28,13 @@ I downloaded a Kaggle dataset (https://www.kaggle.com/zynicide/wine-reviews) of 
 
 ### Tools
 * Pandas and python for initial data cleaning and exploration
+* NLTK for preprocessing and POS tagging (before switching to spaCy)
 * Text preprocessing pipeline from spaCy
-* Vectorization using TDIDF vectorizer
+* Vectorization using TFIDF vectorizer
 * PCA for dimensionality reduction
+* SciKitLearn pairwise distances for original recommender system attempt
 * KMeans algorithm for generating clusters
+* Python for recommender system using prepared clusters
 * Visualizations using stylecloud (built on WordCloud library)
 
 ### Communication

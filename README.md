@@ -6,10 +6,8 @@
 
 ### [MVP](https://github.com/Elaela22/wine_recommendations/blob/main/MVP.md)
 
-### [Excel file](https://github.com/Elaela22/wine_recommendations/blob/main/Wine%20Info.xlsx)
-
-### [Tableau Dashboard](https://public.tableau.com/app/profile/emma3974/viz/Wine_Keywords/WineFlavors)
-
-### [Presentation Slides](https://github.com/Elaela22/wine_recommendations/blob/main/Wine%20Recommendations.pdf)
+### [Presentation Slides](https://github.com/Elaela22/wine_recommendations/blob/main/Wine%20Recommendations%20Final.pdf)
 
 ### [Abstract](https://github.com/Elaela22/wine_recommendations/blob/main/written_description.md)
+
+### [Code](https://github.com/Elaela22/wine_recommendations/blob/main/Wine%20Reviews%20(1).ipynb)

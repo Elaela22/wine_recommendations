@@ -1,7 +1,7 @@
 # Written Description
 
 ## Abstract
-I analyzed wine descriptions and varietals using a Kaggle dataset of 129,000 reviews, and created a new content-based recommender model for a wine retailer to uncover niche preferences and thus increase customer loyalty. Each varietal (such as Cabernet Sauvignon, Malbec, etc.) has its own high level flavor profile, with important variations in secondary characteristics (such as earth notes, minerality, herbs, etc.), which must be captured by a high quality filtering system. My model makes use of 130 clusters of wines generated using the KMeans algorithm and recommends wines from a relevant cluster to any user with at least one 'liked' wine in the system. The wine store can evaluate the success of the new model by looking at repeat purchases and purchases per customer.
+I analyzed wine descriptions and varietals using a Kaggle dataset of 119,000 reviews, and created a new content-based recommender model for a wine retailer to uncover niche preferences and thus increase customer loyalty. Each varietal (such as Cabernet Sauvignon, Malbec, etc.) has its own high level flavor profile, with important variations in secondary characteristics (such as earth notes, minerality, herbs, etc.), which must be captured by a high quality filtering system. My model makes use of 130 clusters of wines generated using the KMeans algorithm and recommends wines from a relevant cluster to any user with at least one 'liked' wine in the system. The wine store can evaluate the success of the new model by looking at repeat purchases and purchases per customer.
 
 ## Components
 ### Design
@@ -26,7 +26,7 @@ I developed a *content-based* recommending system using concrete information fro
 * The final function that outputs recommendations from clusters should be fine-tuned with the help of the marketing team (i.e. # of recommendations per email, # of clusters represented in each email)
 
 ### Data
-I downloaded a Kaggle dataset of 129,000 wine descriptions through 2017. I used the textual data in the descriptions as well as the specific varietal as features in my model. The target is the list of recommended wines for a particular user based on their 'liked' bottles.
+I downloaded a Kaggle dataset of 119,000 wine descriptions through 2017. Each row of data represents one bottle of wine. I used the textual data in the descriptions (written by expert wine reviewers) as well as the specific varietal as features in my model. The target is the list of recommended wines for a particular user based on their 'liked' bottles.
 
 ### Tools
 * Pandas and python for initial data cleaning and exploration

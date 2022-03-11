@@ -29,13 +29,13 @@ I downloaded a Kaggle dataset (https://www.kaggle.com/zynicide/wine-reviews) of 
 ### Tools
 * Pandas and python for initial data cleaning and exploration
 * NLTK for preprocessing and POS tagging (before switching to spaCy)
-* Text preprocessing pipeline from spaCy
+* Text preprocessing pipeline from spaCy, including lemmatization and POS tagging
 * Vectorization using TFIDF vectorizer
 * PCA for dimensionality reduction
 * SciKitLearn pairwise distances for original recommender system attempt
 * KMeans algorithm for generating clusters
 * Python for recommender system using prepared clusters
-* Visualizations using stylecloud (built on WordCloud library)
+* Visualizations using stylecloud
 
 ### Communication
 * 5 minute slide presentation to client (wine store) with proposed model to increase repeat purchases and customer loyalty

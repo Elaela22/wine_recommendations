@@ -26,7 +26,7 @@ I developed a *content-based* recommending system using concrete information fro
 * The final function that outputs recommendations from clusters should be fine-tuned with the help of the marketing team (i.e. # of recommendations per email, # of clusters represented in each email)
 
 ### Data
-I downloaded a Kaggle dataset of 119,000 wine descriptions through 2017. Each row of data represents one bottle of wine. I used the textual data in the descriptions (written by expert wine reviewers) as well as the specific varietal as features in my model. The target is the list of recommended wines for a particular user based on their 'liked' bottles.
+I downloaded a Kaggle dataset (https://www.kaggle.com/zynicide/wine-reviews) of 119,000 wine descriptions through 2017. Each row of data represents one bottle of wine. I used the textual data in the descriptions (written by expert wine reviewers) as well as the specific varietal as features in my model. The target is the list of recommended wines for a particular user based on their 'liked' bottles.
 
 ### Tools
 * Pandas and python for initial data cleaning and exploration
